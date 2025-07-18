@@ -58,10 +58,10 @@ class THelperFunctions {
   static Size screenSize(){
     return MediaQuery.of(Get.context!).size;
   }
-  static double screenHeight(){
+  static double screenHeight(BuildContext context){
     return MediaQuery.of(Get.context!).size.height;
   }
-  static double screenWidth(){
+  static double screenWidth(BuildContext context){
     return MediaQuery.of(Get.context!).size.width;
   }
   static String getFormattedData(DateTime data,{String format ='dd MMM yyyy'}){
