@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutterprojects/utils/theme/custom_themes/appBarTheme.dart';
-import 'package:flutterprojects/utils/theme/custom_themes/bottomTheme.dart';
-import 'package:flutterprojects/utils/theme/custom_themes/checkboxTheme.dart';
-import 'package:flutterprojects/utils/theme/custom_themes/outlineButtonTheme.dart';
-import 'package:flutterprojects/utils/theme/custom_themes/text_theme.dart';
-import 'package:flutterprojects/utils/theme/custom_themes/elevatedbuttonTheme.dart';
-import 'package:flutterprojects/utils/theme/custom_themes/textfieldTheme.dart';
+import 'custom_themes/appBarTheme.dart';
+import 'custom_themes/bottomTheme.dart';
+import 'custom_themes/checkboxTheme.dart';
+import 'custom_themes/outlineButtonTheme.dart';
+import 'custom_themes/text_theme.dart';
+import 'custom_themes/elevatedbuttonTheme.dart';
+import 'custom_themes/textfieldTheme.dart';
+
 class TAppTheme {
   TAppTheme._();
   static ThemeData lightTheme=ThemeData(

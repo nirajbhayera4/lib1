@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutterprojects/utils/constants/size.dart';
-import 'package:flutterprojects/utils/device/device_utility.dart';
-import 'package:lottie/lottie.dart';
-import 'package:flutterprojects/utils/helperfunctions/helper_functions.dart';
+
+
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lottie/lottie.dart';
+
+import '../../../utils/constants/size.dart';
+import '../../../utils/device/device_utility.dart';
+import '../../../utils/helperfunctions/helper_functions.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
@@ -22,19 +25,19 @@ class OnBoardingScreen extends StatelessWidget {
             children: [
               OnBoardingPage(
                 title: "Choose your product",
-                image: "assets/images/shopping cart.json",
+                image: "assets/shopping cart.json",
                 subTitle:
                     "Welcome to the world of Limitless choices - Your perfect product awaits",
               ),
               OnBoardingPage(
                 title: "Select payment method",
-                image: "assets/images/Money Transfer.json",
+                image: "assets/Money Transfer.json",
                 subTitle:
                     "For seamless Transactions, choose your payment path - Your convenience, our priority",
               ),
               OnBoardingPage(
                 title: "Deliver at your doorstep",
-                image: "assets/images/Delivery man on a bike.json",
+                image: "assets/Delivery man on a bike.json",
                 subTitle:
                     "From our doorstep to yours - Swift, Secure, and Contactless delivery",
               ),
