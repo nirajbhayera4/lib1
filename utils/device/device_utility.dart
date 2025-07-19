@@ -53,7 +53,7 @@ class Tutils {
     return kBottomNavigationBarHeight;
 
   }
-  static double appBarHeight(){
+  static double getAppBarHeight(){
     return kToolbarHeight;
   }
   static double getKeyboardHeight(){

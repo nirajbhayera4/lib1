@@ -9,8 +9,8 @@ class TImages{
   static const String facebook='assets/logos/facebook.png';
 
   static const String OnBoardingImage1='assets/images/shopping cart.json';
-  static const String OnBoardingImage2='assets/images/shopping cart.json';
-  static const String OnBoardingImage3='assets/images/shopping cart.json';
+  static const String OnBoardingImage2='assets/images/Money Transfer.json';
+  static const String OnBoardingImage3='assets/images/Delivery man on a bike.json';
 
 
 }
