@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 
@@ -17,8 +16,6 @@ class OnBoardingScreen extends StatelessWidget {
     final screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
-
-
       body: Stack(
         children: [
           PageView(
@@ -45,16 +42,7 @@ class OnBoardingScreen extends StatelessWidget {
           ),
 
           // Skip button on top right
-          Positioned(
-            top: Tutils.getAppBarHeight(),
-            right: Tsize.defaultSpace,
-            child: TextButton(
-              onPressed: () {
-                Navigator.pushReplacementNamed(context, '/home');
-              },
-              child: const Text("Skip", style: TextStyle(color: Colors.black)),
-            ),
-          ),
+
           // Dot navigation SmoothPageIndicator
 
           // circular button
