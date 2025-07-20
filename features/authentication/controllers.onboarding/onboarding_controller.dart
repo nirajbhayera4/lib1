@@ -4,17 +4,34 @@ import 'package:get/get.dart';
 
 class OnBoardingController extends GetxController{
   static OnBoardingController get instance=> Get.find();
+
+
   // variables
-void updatePageIndicator(index){
+  final pageController=PageController();
+  Rx<int> currrentPageIndex=0.obs;
+
+
+void updatePageIndicator(index)=> currrentPageIndex.value = index;
   
-}
+
 void dotNavigationClick(index){
+  currrentPageIndex.value=index;
+  pageController.jumpTo(index);
 
 }
 void nextPage(){
+  if(currrentPageIndex.value==2){
+    //Get.to(LoginScreen());
+  }
+  else{
+    int page=currrentPageIndex.value +1;
+    pageController.jumpToPage(page);
+  }
 
 }
 void skipPage(){
+  currrentPageIndex.value=2;
+  pageController.jumpToPage(2);
 
 }
 }
